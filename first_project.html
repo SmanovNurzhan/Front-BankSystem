@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNN Group</title>
+    <link rel="stylesheet" href="s.css">
+    <link rel="icon" href="icons/LogoBank.ico">
+</head>
+<body>
+    <div id="header">
+        <div class="flex-container">
+            <div class="LogoType">
+                <a href="first_project.html"><img src="Photos/LogoBank.png"/></a>
+            </div>
+            <div class="menu">
+                <li class="clientam">
+                    <a href="#">
+                        <div class="menu_kilentam">
+                            Клиентам
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="menu_business">
+                            Бизнесу
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="menu_guide">
+                            SNN Гид
+                        </div>
+                    </a>
+                </li>
+            </div>
+            <div class="entry">
+                <div class="registered"><a href="#" onclick="show('block')">Регистрация</a></div>
+                <div class="entrance"><a href="login.html">Вход</a></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gray" onclick="show('none')"></div>
+    <div id="bkgroundOfForm">
+        <img class="close" src="Photos/close.png" onclick="show('none')">
+        <div class="FormContent">
+            <h2>Регистрация</h2>
+            <form id="f1" method="post" class="form1">
+                <input type="text" class="input" placeholder="Имя" name="name">
+                <input type="text" class="input" placeholder="Фамилия" name="surname">
+                <input type="tel" class="input" placeholder="+7 (777) 707 77 17" name="phone">
+                <input type="password" class="input" placeholder="Пароль" name="passwd1">
+                <input type="password" class="input" placeholder="Подтвердите пароль" name="passwd2">
+                <input type="submit" class="inputOfRegistration" value="Регистрация" name="sub">
+            </form>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="underHeader">
+            <div class="WelcomeList">
+                <div class="LogoType">
+                    <a href="first_project.html"><img src="Photos/LogoBank.png"/></a>
+                </div>
+                <div class="WelcomeWords">
+                    <h1>SNN Group</h1>
+                    <p>Суперприложение №1 в Казахстане</p>
+                </div>
+            </div>
+            <div class="mobilePhoto">
+                <img src="Photos/mobiles_160822.png">
+            </div>
+        </div>
+
+
+
+        <div class="bkgroundOfCurrency">
+            <div class="headerOfCurrency">
+                    <div class="usd">
+                        <div class="logoA">
+                            <div class="logo">
+                                <img src="Photos/american.png">
+                            </div>
+                            <div class="nameOfLogo">
+                                USD
+                            </div>
+                        </div>
+                        <div class="price">
+                            <div class="sale">
+                                <div class="p1">Продажа</div>
+                                <div class="cena">443.7 ₸</div>
+                            </div>
+                            <div class="buy">
+                                <div class="p1">Покупка</div>
+                                <div class="cena">443.7 ₸</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="eur">
+                        <div class="logoE">
+                            <div class="logo">
+                                <img src="Photos/eur.png">
+                            </div>
+                            <div class="nameOfLogo">
+                                EUR
+                            </div>
+                        </div>
+                        <div class="price">
+                            <div class="sale">
+                                <div class="p1">Продажа</div>
+                                <div class="cena">480.91 ₸</div>
+                            </div>
+                            <div class="buy">
+                                <div class="p1">Покупка</div>
+                                <div class="cena">487.91 ₸</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rub">
+                        <div class="logoR">
+                            <div class="logo">
+                                <img src="Photos/rus.png">
+                            </div>
+                            <div class="nameOfLogo">
+                                RUB
+                            </div>
+                        </div>
+                        <div class="price">
+                            <div class="sale">
+                                <div class="p1">Продажа</div>
+                                <div class="cena">4.73 ₸</div>
+                            </div>
+                            <div class="buy">
+                                <div class="p1">Покупка</div>
+                                <div class="cena">4.89 ₸</div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="footerOfCurrency">
+                <div class="data">
+                    Актуально на 13.04.2024
+                </div>
+                <div class="AllCurrency">
+                    <a href="#">Все курсы</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bkgroundOfProducts">
+            <div class="tagOfProducts">Продукты SNN Group</div>
+            <div class="kirpich">
+                <div class="col1">
+                    <a href="#">
+                        <div class="gold">
+                            SNN Card
+                        </div>
+                        <div class="wordAndCard1">
+                            <div class="word">
+                                 Переводы, <br>
+                                 платежи,снятия <br>
+                                 без комиссий 
+                            </div>
+                            <div class="cardPhoto">
+                                <img src="Photos/card.png">
+                            </div>
+                        </div>
+                        <div class="silka">
+                            Открыть SNN Card онлайн
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="gold">
+                            SNN Card для ребенка
+                        </div>
+                        <div class="wordAndCard">
+                            <div class="word">
+                                 Деньги на карманные <br>
+                                 расходы и контроль <br>
+                                 трат 
+                            </div>
+                            <div class="cardPhoto">
+                                <img src="Photos/green.png">
+                            </div>
+                        </div>
+                        <div class="silka">
+                            Открыть SNN Card для ребенка
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="gold">
+                            SNN Депозит
+                        </div>
+                        <div class="wordAndCard">
+                            <div class="word">
+                                 Снятия и пополнения <br>
+                                 без комиссий. Сумма <br>
+                                 депозита от 1 000 ₸. 
+                            </div>
+                            <div class="cardPhoto">
+                                <img src="Photos/whiteBlue.png">
+                            </div>
+                        </div>
+                        <div class="silka">
+                            Открыть SNN Депозит
+                        </div>
+                    </a>
+                </div>
+                <div class="col2">
+                    <a href="#">
+                        <div class="gold">
+                            SNN Red
+                        </div>
+                        <div class="wordAndCard">
+                            <div class="word">
+                                 Покупки в россрочку 0% <br>
+                                 в магазинах Вашего <br>
+                                 города 
+                            </div>
+                            <div class="cardPhoto">
+                                <img src="Photos/red.png">
+                            </div>
+                        </div>
+                        <div class="silka">
+                            Открыть SNN Red онлайн
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="gold">
+                            Кредит на Покупку
+                        </div>
+                        <div class="wordAndCard3">
+                            <div class="word">
+                                 Кредит или <br>
+                                 рассрочка 0%. <br>
+                                 Одобрение за 1 минуту 
+                            </div>
+                            <div class="cardPhoto">
+                                <img src="Photos/yellow.png">
+                            </div>
+                        </div>
+                        <div class="silka">
+                            Оформить Кредит на Покупку
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="gold">
+                            Кредит для ИП
+                        </div>
+                        <div class="wordAndCard2">
+                            <div class="word">
+                                 До 2 млн тенге. <br>
+                                 Без залога <br>
+                                 и документов 
+                            </div>
+                            <div class="cardPhoto">
+                                <img src="Photos/green2.png">
+                            </div>
+                        </div>
+                        <div class="silka">
+                            Оформить Кредит для ИП
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="myPage">
+            <div class="textOfMyPage">
+                Сканируйте, чтобы перейти<br>
+                в профиль LinkedIn разработчика 
+            </div>
+            <div class="MyQRPage">
+                <img src="Photos/LinkedInProfile.png">
+            </div>
+        </div>
+        <hr class="hr1">
+
+
+
+
+        <div class="bkgroundUnderQr">
+            <div class="cl1">
+                <span>Продукты SNN Group</span>
+                <ul>
+                    <li>
+                        <a href="#">SNN Card</a>
+                    </li>
+                    <li>
+                        <a href="#">SNN Card для ребенка</a>
+                    </li>
+                    <li>
+                        <a href="#">SNN Red</a>
+                    </li>
+                    <li>
+                        <a href="#">SNN Депозит</a>
+                    </li>
+                    <li>
+                        <a href="#">Кредит на покупку</a>
+                    </li>
+                    <li>
+                        <a href="#">Кредит для ИП</a>
+                    </li>
+                    <li>
+                        <a href="#">Кредит Наличными</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cl2">
+                <span>Сервисы SNN Group</span>
+                <ul>
+                    <li>
+                        <a href="#">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="#">Travel</a>
+                    </li>
+                    <li>
+                        <a href="#">Платежи</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Мой банк</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Переводы</a>
+                    </li>
+                    <li>
+                        <a href="#">Акции</a>
+                    </li>
+                    <li>
+                        <a href="#">SNN Гид</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cl3">
+                <span>Для Бизнеса</span>
+                <ul>
+                    <li>
+                        <a href="#">SNN Pay</a>
+                    </li>
+                    <li>
+                        <a href="#">Бизнес Кредит</a>
+                    </li>
+                    <li>
+                        <a href="#">Кредит для ИП</a>
+                    </li>
+                    <li>
+                        <a href="#">Принимать платежи с SNN</a>
+                    </li>
+                    <li>
+                        <a href="#">SNN Гид</a>
+                    </li>
+                    <li>
+                        <a href="#">Кабинет партнера SNN Pay</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cl4">
+                <div class="hd">
+                    <div>
+                        1111
+                    </div>
+                    <span>Бесплатно с мобильного</span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">Пользовательское соглашение</a>
+                    </li>
+                    <li>
+                        <a href="#">Вакансии</a>
+                    </li>
+                    <li>
+                        <a href="#">Investor Relations</a>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+        <hr>
+    </div>
+    <div id="footer">
+        <div class="bkgroundOfFooter">
+            <span>© 2024 TOO «SNN Group»</span>
+            <p>
+                Создатель: Сманов Нуржан<br> 
+                Дата начала: 05.04.2024
+            </p>
+            <a href="#">Индивидуальный сайт</a>
+        </div>
+        <div class="iconsOfFooter">
+            <a href="https://t.me/Nurzhanss">
+                <img src="icons/icons8-telegram.svg">
+            </a>
+            <a href="https://linkedin.com/in/nurzhan-smanov-54385a2b8">
+                <img src="icons/icons8-linkedin.svg">
+            </a>
+            <a href="#">
+                <img src="icons/icons8-facebook.svg">
+            </a>
+        </div>
+    </div>
+    <script src="newJS.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background-color: #F0F0F0;
+}
+#header{
+    font-family: sans-serif;
+    height: 70px;
+    width: 1200px;
+    background-color: white;
+    /* position: fixed; */
+    margin: auto;
+    border-radius: 20px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 330px;
+    padding: 5px;
+}
+#header div{
+    font-size: 17px;
+}
+.flex-container .mainText{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    /* margin-right: 150px; */
+}
+#header .LogoType img{
+    /* margin-left: 150px; */
+    height: 50px;
+    width: 55px;
+    transition: .5s;
+}
+#header .LogoType img:hover{
+    transform: scale(1.2);
+}
+.logout a{
+    text-decoration: none;
+    color: #00000066;
+}
+.logout a:hover{
+    text-decoration: none;
+    color: black;
+}
+.bkgroundOfBank{
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 300px;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    gap: 30px;
+}
+.balanceForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.balanceForm input{
+    border-radius: 10px;
+    font-size: 20px;
+    border: grey 0.1px solid;
+    padding: 5px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.YourBalance p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.YourBalance{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.YourBalance #balanch4{
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+}
+#f2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#f2 .transaction{
+    background-color: rgb(186, 93, 7);
+    color: #FFFFFF;
+}
+#f2 .transaction:hover{
+    background-color: rgb(215, 121, 32);
+}

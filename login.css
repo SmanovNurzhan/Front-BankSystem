@@ -1,0 +1,140 @@
+body{
+    background-color: #F0F0F0;
+    margin: 0px;
+}
+.blockOfRegister{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+}
+.registration .center{
+    height: 60px;
+    width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+}
+.center p{
+    color: #000000;
+}
+.registration a{
+    font-size: 16px;
+    color: #0095F6;
+    text-decoration: none;
+}
+.registration a:hover{
+    text-decoration: underline;
+}
+.form1 .inputOfRegistration:hover{
+    background-color: rgb(215, 121, 32);
+}
+.f2 .inputOfRegistration{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 5px;
+    font-family: sans-serif;
+    height: 40px;
+    width: 200px;
+    border: grey 0px solid;
+    border-radius: 10px;
+    background-color: rgb(186, 93, 7);
+    color: #FFFFFF;
+    font-weight: 650;
+    cursor: pointer;
+}
+.f2 .input{
+    padding: 5px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    height: 35px;
+    border: grey 0.1px solid;
+    border-radius: 10px;
+}
+#bkgroundOfForm{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+}
+#bkgroundOfForm .FormContent{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    justify-content: center;
+    align-items: center;
+}
+.FormContent h2{
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(186, 93, 7);
+}
+.FormContent .f2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    text-align: center;
+}
+.FormContent a{
+    text-decoration: none;
+    margin-top: 20px;
+    color: rgb(186, 93, 7);
+}
+.FormContent a:hover{
+    color: rgb(215, 121, 32);
+}
+.iconsOfFooter a img{
+    height: 22px;
+}
+.iconsOfFooter {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+#footer .bkgroundOfFooter{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 835px;
+}
+.bkgroundOfFooter span,p{
+    color: #4A4A4A;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.bkgroundOfFooter a{
+    color: grey;
+    text-decoration: none;
+}

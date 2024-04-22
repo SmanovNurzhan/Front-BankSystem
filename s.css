@@ -1,0 +1,600 @@
+#main{
+    margin-bottom: 40px;
+}
+body{
+    margin: 0px;
+    background-color: #F0F0F0;
+}
+#header{
+    font-family: sans-serif;
+    height: 70px;
+    width: 1520px;
+    background-color: white;
+    position: fixed;
+}
+#header div{
+    font-size: 17px;
+}
+#header .LogoType img{
+    margin-left: 150px;
+    height: 50px;
+    width: 55px;
+    transition: .5s;
+}
+#header .LogoType img:hover{
+    transform: scale(1.2);
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 330px;
+    padding: 5px;
+}
+.flex-container .menu li a div:hover{
+    color: black;
+}
+.flex-container .menu a{
+    text-decoration: none;
+    color: #00000066;
+}
+.flex-container .menu{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+}
+#header .entry {
+    display: flex;
+    gap: 30px;
+}
+#header .entry a{
+    font-family: sans-serif;
+    color: #00000066;
+    text-decoration: none;
+}
+#header .entry a:hover{
+    color: black;
+    text-decoration: none;
+}
+#main .underHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    height: 450px;
+    background-color: #e1e1e1;
+}
+#main .WelcomeList{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#main .WelcomeWords h1{
+    font-size: 60px;
+    font-weight:700;
+    font-family: sans-serif;
+}
+#main .WelcomeWords p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+#main .underHeader .WelcomeList .LogoType{
+    display: flex;
+}
+#main .underHeader .WelcomeList .LogoType img{
+    height: 300px;
+}
+#main .underHeader .mobilePhoto img{
+    height: 300px;
+    margin-top: 50px;
+}
+.mainSlider .service{
+    font-size: 20px;
+    margin-left: 550px;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main .bkgroundOfCurrency{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bkgroundOfCurrency{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+.bkgroundOfCurrency .headerOfCurrency{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+}
+.headerOfCurrency .usd{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.headerOfCurrency .eur{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.headerOfCurrency .rub{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bkgroundOfCurrency .usd .logoA{ /*Горизонт ФЛАГ и ИМЯ страны*/
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.bkgroundOfCurrency .eur .logoE{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.bkgroundOfCurrency .rub .logoR{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.bkgroundOfCurrency .logoA .logo img{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+.bkgroundOfCurrency .logoE .logo img{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+.bkgroundOfCurrency .logoR .logo img{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+.logoA .nameOfLogo{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 550;
+} 
+.logoE .nameOfLogo{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 550;
+} 
+.logoR .nameOfLogo{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 550;
+} 
+.price{
+    display: flex;
+    gap: 30px;
+}
+.price .sale{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.price .buy{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.price .sale .cena{
+    font-size: 27px;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+.price .buy .cena{
+    font-size: 27px;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+.sale .p1{
+    color: rgb(94, 94, 94);
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.buy .p1{
+    color: rgb(94, 94, 94);
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.bkgroundOfCurrency .footerOfCurrency{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 690px;
+}
+.footerOfCurrency .data{
+    color: grey;
+}
+.footerOfCurrency .AllCurrency a{
+    color: rgb(187, 120, 13);
+    text-decoration: none;
+    font-size: 18px;
+}
+.footerOfCurrency .AllCurrency a:hover{
+    color: rgb(216, 188, 135);
+}
+
+.bkgroundOfProducts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bkgroundOfProducts .tagOfProducts{
+    font-size: 50px;
+    font-weight: 540;
+    font-family: sans-serif;
+    text-align: center;
+}
+.kirpich{
+    padding-top: 50px;
+    display: flex;
+    gap: 25px;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.col1 a{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-decoration: none;
+    background-color:#FFFFFF;
+    height: 200px;
+    padding: 40px;
+    border-radius: 15px;
+}
+.col2 a{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-decoration: none;
+    background-color:#FFFFFF;
+    height: 200px;
+    padding: 40px;
+    border-radius: 15px;
+}
+.col1 a .gold{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #00000099;
+}
+.col1 a .wordAndCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+
+.col1 a .wordAndCard1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
+.wordAndCard1 .word{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.col2 a .wordAndCard2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.wordAndCard2 .word{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.col2 a .wordAndCard3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+}
+.wordAndCard3 .word{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.col2 a .wordAndCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.wordAndCard .word{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.cardPhoto img{
+    height: 85px;
+    width: 125px;
+    border-radius: 10px;
+}
+.col1 a .silka{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0089D0;
+}
+.col1 a .silka:hover{
+    color: #0089D0;
+    text-decoration: underline;
+}
+.col2 a .silka:hover{
+    color: #0089D0;
+    text-decoration: underline;
+}
+.col2 a .silka{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0089D0;
+}
+.col2 a .gold{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #00000099;
+}
+
+.myPage{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#main .hr1{
+    width: 80%;
+}
+.myPage .textOfMyPage{
+    font-size: 50px;
+    color:#000000;
+    font-family: sans-serif;
+    font-weight: 540;
+    text-align: center;
+}
+
+.myPage .MyQRPage{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 33px;
+}
+
+.MyQRPage img{
+    height: 330px;
+}
+
+
+
+
+.bkgroundUnderQr{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 110px;
+    justify-content: center;
+}
+
+.bkgroundUnderQr .cl1, .cl2, .cl3,.cl4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cl1 span{
+    font-weight: 600;
+}
+.cl2 span{
+    font-weight: 600;
+}
+.cl3 span{
+    font-weight: 600;
+}
+
+.cl1,.cl2,.cl3 span{
+    color: #000000;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.cl3,.cl4 span{
+    color: #000000;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.cl4 ul{
+    color: #000000;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.bkgroundUnderQr ul li a{
+    color: #00000066;
+    font-size: 14px;
+}
+.bkgroundUnderQr ul li a:hover{
+    color: #000000;
+}
+
+.bkgroundUnderQr ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 1px;
+}
+.bkgroundUnderQr ul li a{
+    text-decoration: none;
+}
+.cl4 .hd span{
+    color: #000000;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.cl4 .hd{
+    display: flex;
+    align-items:end;
+    gap: 10px;
+}
+
+.cl4 .hd div{
+    font-size: 25px;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+.cl1 ul{
+    list-style-type: none;
+}
+.cl2 ul{
+    list-style-type: none;
+}
+.cl3 ul{
+    list-style-type: none;
+}
+.cl4 ul{
+    list-style-type: none;
+}
+.iconsOfFooter a img{
+    height: 22px;
+}
+.iconsOfFooter {
+    display: flex;
+    gap: 20px;
+}
+#footer .bkgroundOfFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer{ 
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 835px;
+}
+.bkgroundOfFooter span,p{
+    color: #4A4A4A;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.bkgroundOfFooter a{
+    color: grey;
+    text-decoration: none;
+}
+
+#bkgroundOfForm{
+    width: 400px;
+    height: 530px;
+    margin: 40px auto;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    z-index: 150;
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#bkgroundOfForm .FormContent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    justify-content: center;
+    align-items: center;
+}
+#bkgroundOfForm .close{
+    margin-left: 360px;
+    margin-top: 22px;
+    cursor: pointer;
+    height: 16px;
+}
+.FormContent h2{
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(186, 93, 7);
+}
+.FormContent .form1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 280px;
+    text-align: center;
+}
+
+.form1 .input{
+    padding: 5px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    height: 30px;
+    border: grey 0.1px solid;
+    border-radius: 10px;
+}
+
+.form1 .inputOfRegistration{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 5px;
+    font-family: sans-serif;
+    height: 40px;
+    width: 200px;
+    border: grey 0px solid;
+    border-radius: 10px;
+    background-color: rgb(186, 93, 7);
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+.form1 .inputOfRegistration:hover{
+    background-color: rgb(215, 121, 32);
+}
+#gray{
+    background-color: rgba(1, 1, 1, 0.55);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    z-index: 100;
+}

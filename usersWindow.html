@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="userWindow.css">
+    <link rel="icon" href="icons/LogoBank.ico">
+    <title>Мой банк</title>
+</head>
+<body>
+    <div id="header">
+        <div class="flex-container">
+            <div class="LogoType">
+                <a href="first_project.html"><img src="Photos/LogoBank.png"/></a>
+            </div>
+            <div class="mainText">
+                <p>SNN Group</p>
+            </div>
+            <div class="entry">
+                <div class="logout">
+                    <a href="first_project.html">Выйти</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="bkgroundOfBank">
+            <div class="balanceForm">
+                <h2>Переводы</h2>
+                <form action="#" method="post" id="f2">
+                    <input type="text" name="phone" placeholder="Телефон получателя">
+                    <input type="text" id="myInput" name="money" placeholder="₸">
+                    <input type="submit" class="transaction" value="Перевод" name="transaction">
+                </form>
+            </div>
+            <div class="YourBalance">
+                <p>Ваш Баланс:</p>
+                <h4 id="balanceh4"></h4>
+                <button onclick="" id="btnDelete">Удалить аккаунт</button>
+            </div>
+        </div>
+    </div>
+    <script src="userWindow.js"></script>
+</body>
+</html>
